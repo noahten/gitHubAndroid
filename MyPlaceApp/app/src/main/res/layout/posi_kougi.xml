@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_2"
+        android:src="@drawable/posi_kougi"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:contentDescription="@string/app_name" />
+
+    <Button
+        android:id="@+id/send_button0"
+        android:text="選択画面に戻る"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/send_button1"
+        android:text="現在位置の確認"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/send_button2"
+        android:text="到着"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

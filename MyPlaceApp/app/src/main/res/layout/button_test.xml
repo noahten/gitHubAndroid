@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view_2"
+        android:src="@drawable/position0"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:text="行きたいアトラクションを選択してください"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<TableRow>
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="2号館"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/send_button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="講義棟"
+        android:textSize="30sp" />
+</TableRow>
+    <TableRow>
+
+    <Button
+        android:id="@+id/send_button3"
+        android:text="12号館"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/send_button1"
+        android:text="現在位置の確認"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </TableRow>
+    <Button
+        android:id="@+id/send_button2"
+        android:text="戻る"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</TableLayout>
+
